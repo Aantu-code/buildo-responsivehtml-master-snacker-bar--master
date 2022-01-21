@@ -67,6 +67,12 @@
   display: flex;
   margin-top: 20px;
 }
+.p-three {
+  margin-left: 5px !important;
+}
+.p-two {
+  margin-left: 10px !important;
+}
 .day {
   background: #f21a69;
   font-size: 28px !important;
@@ -77,6 +83,9 @@
   text-align: center;
   height: 40px;
   line-height: 42px;
+}
+.day.day-three {
+  padding-left: 2px;
 }
 .clone.red-color {
   color: #f21a69;
