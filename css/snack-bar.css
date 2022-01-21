@@ -1,0 +1,126 @@
+/*start-snackbar-google-font*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600&display=swap");
+
+.valentine-snack-bar {
+  font-family: "Poppins", sans-serif;
+  /* background-image: url("../images/snack-bar-img/snake-bar-img.png");
+  width: 100%;
+  height: 80px;
+  background-position: center;
+  position: relative;
+  background-size: contain;
+  background-repeat: no-repeat; */
+}
+.valentine-snack-bar::after {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  background-color: #fff3f3;
+  width: 100%;
+  height: 80px;
+  z-index: -1;
+}
+.btn {
+  border: none;
+  padding: 9px 26px;
+}
+
+/* .time-line-comedown {
+  display: flex;
+} */
+.time-line-comedown {
+  display: flex;
+  z-index: 999;
+}
+.valentine-snack-bar::before {
+  background-image: url("../images/snack-bar-img/snake-bar-img.png");
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 80px;
+  content: "";
+  background-repeat: no-repeat;
+
+  z-index: 0;
+}
+.main-content {
+  display: flex;
+  /* width: 956px; */
+  height: 80px;
+  justify-content: center;
+  align-items: center;
+}
+
+.snack-bar-content {
+  color: #000000;
+  font-size: 28px;
+  margin-left: 60px;
+}
+.snack-bar-content h2 {
+  font-size: 29px;
+  font-weight: 600;
+  font-family: poppins;
+}
+.timer {
+  display: flex;
+  margin-top: 20px;
+}
+.day {
+  background: #f21a69;
+  font-size: 28px !important;
+  color: #fff;
+  border-radius: 5px;
+  font-family: poppins;
+  width: 50px;
+  text-align: center;
+  height: 40px;
+  line-height: 40px;
+}
+.clone.red-color {
+  color: #f21a69;
+}
+.day.day-two {
+  background: #5127ba;
+
+  margin-left: 0px;
+  text-align: center;
+}
+.clone.blue-color {
+  color: #5127ba;
+}
+.clone {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  padding: 8px;
+  font-size: 30px;
+}
+.come-down p {
+  font-size: 11px;
+  margin-left: 15px;
+  font-family: poppins;
+  line-height: 20px;
+  font-family: poppins;
+}
+.snack-bar-content span {
+  color: #f21a69;
+}
+.snack-bar-button {
+  margin-left: 65px;
+}
+.snack-bar-button .btn {
+  color: #fff !important;
+  background: #f21a69;
+  display: inline-block;
+  font-size: 11px;
+  font-weight: 500;
+  font-family: poppins;
+}
+a.btn.snack-secondary {
+  background: #5127ba;
+  margin-left: 20px;
+}
+
+/*end-snackbar-google-font*/

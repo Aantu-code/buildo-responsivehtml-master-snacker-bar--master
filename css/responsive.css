@@ -1,0 +1,411 @@
+/*==========  Non-Mobile First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1368px) {
+  /* .valentine-snack-bar {
+    background: none;
+  } */
+  .snack-bar-content h2 {
+    font-size: 26px;
+  }
+  .come-down {
+    margin-right: 0px;
+  }
+  .valentine-snack-bar::before {
+    background: none;
+  }
+  .snack-bar-content {
+    font-size: 20px;
+    margin-left: 35px;
+  }
+  .btn {
+    padding: 6px 7px;
+  }
+  .snack-bar-button {
+    margin-left: 35px;
+  }
+  .valentine-snack-bar
+    > .valentine-snack-bar-container
+    .snack-bar-button
+    > a.btn.snack-primary,
+  a.btn.snack-secondary {
+    font-size: 13px;
+  }
+  .come-down:nth-child(4) {
+    margin-right: 20px;
+  }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) {
+  .day {
+    width: 40px;
+    font-size: 20px !important;
+  }
+  .day.day-two {
+    width: 40px;
+  }
+  .timer {
+    height: 35px;
+    margin-right: 0;
+  }
+
+  .come-down p {
+    margin-left: 10px;
+    margin-top: 5px;
+    font-size: 8px;
+  }
+
+  .snack-bar-content h2 {
+    font-size: 20px;
+  }
+  .clone {
+    padding: 5px;
+    font-size: 28px;
+  }
+
+  h2 {
+    font-size: 18px;
+    line-height: 32px;
+  }
+  a.btn.snack-secondary {
+    background: #5127ba;
+    margin-left: 9px;
+  }
+
+  .snack-bar-button {
+    margin-left: 20px;
+  }
+  .snack-bar-content {
+    margin-left: 0px;
+  }
+  .timer p {
+    margin-top: 1px;
+  }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+  /*********************
+        Common Style
+    **********************/
+  .day {
+    padding: 0;
+  }
+  .come-down p {
+    margin-left: 12px;
+    font-size: 8px;
+    margin-top: -3px;
+  }
+
+  .snack-bar-content h2 {
+    font-size: 15px;
+  }
+  .valentine-snack-bar
+    > .valentine-snack-bar-container
+    .snack-bar-button
+    > a.btn.snack-primary,
+  a.btn.snack-secondary {
+    font-size: 6px;
+    padding: 5px 10px;
+  }
+  .snack-bar-button {
+    margin-left: 15px;
+  }
+  h2 {
+    font-size: 12px;
+  }
+  h1 {
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 30px;
+  }
+  .timer {
+    height: 40px;
+  }
+  h2 {
+    line-height: 20px;
+  }
+
+  .timer p {
+    margin-top: 0;
+    font-size: 8px;
+    margin-right: 10px;
+  }
+  .valentine-snack-bar {
+    height: 60px;
+  }
+  .main-content {
+    height: 60px;
+  }
+  .social_icons,
+  .header_top_right .social_icons,
+  .footer_bottom .social_icons {
+    text-align: center;
+  }
+  .social_icons > li {
+    margin: 0px 5px;
+  }
+  .social_icons a i {
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  .section-pad {
+    padding: 40px 0px;
+  }
+
+  .section_intro {
+    margin: 10px auto 30px;
+  }
+  .section_intro > h1 {
+    font-size: 20px;
+    margin: 5px 0;
+  }
+  .section_intro > p {
+    font-size: 12px;
+  }
+
+  .cta_primary {
+    padding: 0px 10px;
+    margin: 10px 0px;
+  }
+  .cta_primary i {
+    line-height: 30px;
+  }
+  @media only screen and (max-width: 585px) {
+    .day {
+      font-size: 16px !important;
+      width: 30px;
+      height: 33px;
+      line-height: 34px;
+      margin-top: 6px;
+    }
+    .day.day-two {
+      width: 30px;
+    }
+    .snack-bar-content h2 {
+      font-size: 12px;
+    }
+    .snack-bar-content h2 {
+      font-size: 12px;
+    }
+    .timer {
+      margin-right: -8px !important;
+    }
+    .come-down {
+      margin-right: 9px;
+      margin-bottom: 8px;
+    }
+    .day.day-two {
+      width: 30px;
+    }
+    .come-down p {
+      margin-left: 7px;
+      font-size: 7px;
+      margin-top: -3px;
+    }
+  }
+  @media only screen and (max-width: 465px) {
+    .alinment span {
+      margin-left: 6px;
+    }
+    .come-down:nth-child(3) {
+      display: none;
+    }
+    .clone.blue-color {
+      display: none;
+    }
+    span.color-two {
+      display: none;
+    }
+    h2 {
+      font-size: 10px;
+    }
+    .timer {
+      margin-right: 5px;
+    }
+    .timer p {
+      margin-top: -1px;
+
+      font-size: 7px;
+      margin-right: 11px;
+    }
+    .snack-bar-button {
+      margin-left: 10px;
+    }
+    a.btn.snack-secondary {
+      margin-left: 5px;
+    }
+    .valentine-snack-bar
+      > .valentine-snack-bar-container
+      .snack-bar-button
+      > a.btn.snack-primary,
+    a.btn.snack-secondary {
+      padding: 5px 6px;
+    }
+  }
+  /**********************
+        Header Area
+    **********************/
+
+  .header_top_left > ul {
+    font-size: 12px;
+    text-align: center;
+  }
+  .header_top_left li {
+    margin-right: 10px;
+  }
+
+  .navbar-toggle {
+    margin-top: 6px;
+  }
+  .header_bottom .logo a img {
+    max-width: 60px;
+    margin-left: 10px;
+  }
+  #main_manu {
+    border-top: 1px solid #ddd;
+    margin-top: 16px;
+  }
+  #main_manu > ul {
+    float: none;
+  }
+  #main_manu ul li a {
+    line-height: 31px;
+    padding: 0;
+    margin-left: 5px;
+  }
+  #main_manu ul li a {
+    line-height: 35px;
+  }
+  #main_manu ul li:hover:after {
+    width: 90%;
+    left: 1px;
+  }
+
+  /**********************
+        Slider Area
+    **********************/
+  .single_slids {
+    padding: 50px 0;
+  }
+  .single_slids h2 {
+    font-size: 27px;
+    line-height: 30px;
+  }
+  .single_slids h3 {
+    font-size: 40px;
+    line-height: 50px;
+  }
+
+  /**********************
+        Latest Area
+    **********************/
+  .latest_project_area {
+    padding-bottom: 0;
+  }
+  .latest_project_filter {
+    margin-bottom: 30px;
+  }
+  .latest_project_filter > li {
+    margin: 0 4px;
+  }
+  .latest_project_filter a {
+    padding: 0px;
+  }
+  .single_project {
+    width: 50%;
+  }
+  .single_project_content > h2 {
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+
+  /**********************
+        Service Area
+    **********************/
+  .single-service {
+    margin-bottom: 20px;
+  }
+
+  /**********************
+        Team Area
+    **********************/
+  .teaminfo > h2 {
+    line-height: 18px;
+    font-size: 16px;
+  }
+  .teaminfo > h3 {
+    line-height: 16px;
+  }
+
+  /**********************
+        Tastimonials Area
+    **********************/
+  .testimonial_intro {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .testimonial_intro i {
+    font-size: 50px;
+    line-height: 60px;
+    padding: 10px 70px;
+  }
+
+  /**********************
+        Email Subs Area
+    **********************/
+
+  .emailsubs_area h2 {
+    text-align: center;
+    font-size: 18px;
+  }
+  .emailsubs_area h3 {
+    text-align: center;
+    font-size: 14px;
+    line-height: 16px;
+    margin-bottom: 10px;
+  }
+  .emailsubs_area form#bildo_mc_form input {
+    width: auto;
+  }
+  .emailsubs_area form#bildo_mc_form {
+    text-align: center;
+  }
+
+  /**********************
+        Partner Area
+    **********************/
+  .partner {
+    margin-bottom: 15px;
+  }
+  /**********************
+        Footer Area
+    **********************/
+  .footer > div {
+    margin-bottom: 15px;
+  }
+  .f_usflinks ul li {
+    margin-right: 10px;
+    float: none;
+  }
+  #flickr_grid a {
+    width: 28%;
+  }
+  .copyright_info {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 480px) {
+  #flickr_grid a {
+    width: 24%;
+  }
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width: 320px) {
+}
