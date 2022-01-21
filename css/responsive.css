@@ -6,7 +6,7 @@
     background: none;
   } */
   .snack-bar-content h2 {
-    font-size: 26px;
+    font-size: 23px !important;
   }
   .come-down {
     margin-right: 0px;
@@ -57,7 +57,7 @@
   }
 
   .snack-bar-content h2 {
-    font-size: 20px;
+    font-size: 20px !important;
   }
   .clone {
     padding: 5px;
@@ -99,7 +99,7 @@
   }
 
   .snack-bar-content h2 {
-    font-size: 15px;
+    font-size: 14px !important;
   }
   .valentine-snack-bar
     > .valentine-snack-bar-container
@@ -184,11 +184,9 @@
     .day.day-two {
       width: 30px;
     }
+
     .snack-bar-content h2 {
-      font-size: 12px;
-    }
-    .snack-bar-content h2 {
-      font-size: 12px;
+      font-size: 10px !important;
     }
     .timer {
       margin-right: -8px !important;

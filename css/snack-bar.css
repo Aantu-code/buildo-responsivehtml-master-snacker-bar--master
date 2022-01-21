@@ -59,7 +59,7 @@
   margin-left: 60px;
 }
 .snack-bar-content h2 {
-  font-size: 29px;
+  font-size: 29px !important;
   font-weight: 600;
   font-family: poppins;
 }
@@ -99,7 +99,7 @@
 }
 .come-down p {
   font-size: 11px;
-  margin-left: 15px;
+  margin-left: 12px;
   font-family: poppins;
   line-height: 20px;
   font-family: poppins;
